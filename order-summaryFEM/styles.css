@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+@-ms-viewport {
+    width: device-width;
+  }
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    flex-direction: column;
+    font-size: 16px; 
+} 
+
+.party {
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.price{
+    margin-top: 5px;
+}
+
+.Order {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    border-radius: 20px;
+
+}
+
+.music {
+    display: inline-block;
+    
+}
+
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orderSum {
+    margin-top: 35px;
+    
+}
+
+.orderText p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 700px;
+    text-align: center;
+    color: rgb(104, 104, 104);
+}
+
+.Package {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 3%;
+    height: 70px;
+}
+
+.Package img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Package .plan {
+    font-weight: 700px;
+    margin-right: 100px;
+    height: 20px;
+}
+
+.Package .price {
+    color: grey;
+}
+
+.Cash {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow:  0px 13px 30px hsl(0, 0%, 64%);
+}
+
+.plan {
+    margin-top: 2px;
+}
+
+.payment .Cancel {
+    display: flex;
+      color: grey;
+      margin-bottom: 50px;
+      text-decoration: none;
+}
+
+.Cash:hover {
+    background-color: hsl(249, 84%, 64%);
+    box-shadow:  0px 15px 30px hsl(255, 100%, 80%);
+}
+
+
+.change {
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.change:hover {
+    text-decoration: none;
+    color: hsl(266, 79%, 77%);
+
+}
+
+.Cancel:hover {
+   color: black;
+   
+}
+
+.Cancel {
+    margin-top: 10px;
+}
